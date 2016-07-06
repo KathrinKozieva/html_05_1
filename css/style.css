@@ -56,7 +56,7 @@ body {
     background: linear-gradient(to bottom, #51b1dc 0%,#3584c9 68%,#2e7ac4 91%,#2e7ac4 100%);
 }
 
-.right .color-blue a:hover {
+.right a:hover {
 	text-decoration: underline;
 	transition-delay: 0.3s;
 }
@@ -100,6 +100,7 @@ body {
 }
 
 /* CADASTRE */
+
 .login {
 	width: 560px;
 	height: 613px;
@@ -115,6 +116,7 @@ body {
 	background: rgba(0, 0, 0, 0.631);
 	margin-bottom: 2px;
 }
+
 .login .login-head p{
 	font-size: 24px;
 	font-family: "HelveticaNeue";
@@ -128,11 +130,6 @@ body {
 	height: 549px;
 	background: rgba(0, 0, 0, 0.631);
 	text-align: center;
-}
-
-.login-body .FB input[type="image"]{
-	margin-top: 36px;
-	margin-bottom: 26px;
 }
 
 .login .login-body li p {
@@ -175,6 +172,11 @@ label {
 	font-family: "HelveticaNeue";
 	color: white;
 	line-height: 16px;
+}
+
+.login-body .FB [type="image"]{
+	margin-top: 38px;
+	margin-bottom: 30px;
 }
 
 .login-body input[type="text"],  input[type="email"],  input[type="password"]{
